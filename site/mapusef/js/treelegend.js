@@ -14,12 +14,12 @@ function getLibraryLegend_lcm25k(dtnode)
 	switch (dtnode.data.key) {
 	case "lcm25k":
 		$("#sz_library_legend")[0].innerHTML =
-			createPopupLink('./legend/LCM_hanrei.png', '凡例') + "<br>" +
+			createPopupLink('../../legend/LCM_hanrei.png', '凡例') + "<br>" +
 			createPopupLink('http://www.gsi.go.jp/bousaichiri/lc_index.html', '解説');
 		break;
 	case "lcm25k_2011":
 		$("#sz_library_legend")[0].innerHTML =
-			createPopupLink('./legend/LCM_2011_hanrei.jpg', '凡例') + "<br>" +
+			createPopupLink('../../legend/LCM_2011_hanrei.jpg', '凡例') + "<br>" +
 			createPopupLink('http://www.gsi.go.jp/bousaichiri/lc_index.html', '解説');
 		break;
 	}
@@ -31,7 +31,7 @@ function getLibraryLegend_meijiswale(dtnode)
 	$("#sz_library_name")[0].innerHTML = dtnode.data.title;
 	$("#sz_library_subname")[0].innerHTML = "";
 	$("#sz_library_legend")[0].innerHTML =
-		createPopupLink('./legend/SWALE_hanrei.pdf', '凡例') + "<br>" +
+		createPopupLink('../../legend/SWALE_hanrei.pdf', '凡例') + "<br>" +
 		createPopupLink('http://www.gsi.go.jp/bousaichiri/lc_meiji.html', '解説');
 }
 
@@ -44,61 +44,61 @@ function getLibraryLegend_volcano(dtnode)
 	var legend = "";
 	switch(dtnode.data.key){
 	case 'akandake':
-		legend = "./legend/l_vlcd_meakan.jpg";
+		legend = "../../legend/l_vlcd_meakan.jpg";
 		break;
 	case 'tokachidake':
-		legend = "./legend/l_vlcd_2tkch.jpg";
+		legend = "../../legend/l_vlcd_2tkch.jpg";
 		break;
 	case 'tarumaesan':
-		legend = "./legend/l_vlcd_10tarm.jpg";
+		legend = "../../legend/l_vlcd_10tarm.jpg";
 		break;
 	case 'usuzan':
-		legend = "./legend/l_vlcd_9usu.jpg";
+		legend = "../../legend/l_vlcd_9usu.jpg";
 		break;
 	case 'komagatake':
-		legend = "./legend/l_vlcd_5hkkm.jpg";
+		legend = "../../legend/l_vlcd_5hkkm.jpg";
 		break;
 	case 'kurikomayama':
-		legend = "./legend/kurikoma_D2_58_legend.jpg";
+		legend = "../../legend/kurikoma_D2_58_legend.jpg";
 		break;
 	case 'adatarayama':
-		legend = "./legend/l_vlcd_adatara.jpg";
+		legend = "../../legend/l_vlcd_adatara.jpg";
 		break;
 	case 'bandaisan':
-		legend = "./legend/l_vlcd_11band.jpg";
+		legend = "../../legend/l_vlcd_11band.jpg";
 		break;
 	case 'izuoshima':
-		legend = "./legend/l_vlcd_13izuo.jpg";
+		legend = "../../legend/l_vlcd_13izuo.jpg";
 		break;
 	case 'miyakezima':
-		legend = "./legend/l_vlcd_6mykj.jpg";
+		legend = "../../legend/l_vlcd_6mykj.jpg";
 		break;
 	case 'kusatsushiranesan':
-		legend = "./legend/l_vlcd_3ksrn.jpg";
+		legend = "../../legend/l_vlcd_3ksrn.jpg";
 		break;
 	case 'fujisan':
-		legend = "./legend/l_vlcd_12fuji.jpg";
+		legend = "../../legend/l_vlcd_12fuji.jpg";
 		break;	
 	case 'ontakesan':
-		legend = "./legend/ontake_legend.jpg";
+		legend = "../../legend/ontake_legend.jpg";
 		break;
 	case 'kujirenzan':
-		legend = "./legend/l_vlcd_kuju.jpg";
+		legend = "../../legend/l_vlcd_kuju.jpg";
 		break;
 	case 'asosan':
-		legend = "./legend/l_vlcd_4aso.jpg";
+		legend = "../../legend/l_vlcd_4aso.jpg";
 		break;
 	case 'unzendake':
-		legend = "./legend/l_vlcd_7unzn.jpg";
+		legend = "../../legend/l_vlcd_7unzn.jpg";
 		break;	
 	case 'kirishimayama':
-		legend = "./legend/l_vlcd_8krsm.jpg";
+		legend = "../../legend/l_vlcd_8krsm.jpg";
 		break;	
 	case 'sakurazima':
-		legend = "./legend/l_vlcd_1skrj.jpg";
+		legend = "../../legend/l_vlcd_1skrj.jpg";
 		break;	
 	case 'satsumaiojima':
-		legend = "./legend/l_vlcd_satsumaiou.jpg";
+		legend = "../../legend/l_vlcd_satsumaiou.jpg";
 		break;	
 	}
 	
@@ -114,7 +114,7 @@ function getLibraryLegend_takudo(dtnode)
 	$("#sz_library_name")[0].innerHTML = dtnode.parent.parent.data.title;
 	$("#sz_library_subname")[0].innerHTML = "(" + dtnode.parent.data.title + "," + dtnode.data.title + ")";
 	$("#sz_library_legend")[0].innerHTML =
-		createPopupLink('./legend/takuchi_hanrei.png', '凡例') + "<br>" +
+		createPopupLink('../../legend/takuchi_hanrei.png', '凡例') + "<br>" +
 		createPopupLink('http://www1.gsi.go.jp/geowww/LandUse/lum-takudo.html', '解説');
 }
 
@@ -125,7 +125,7 @@ function getLibraryLegend_relief(dtnode)
 	$("#sz_library_name")[0].innerHTML = dtnode.data.title;
 	$("#sz_library_subname")[0].innerHTML = "";
 	$("#sz_library_legend")[0].innerHTML =
-		createPopupLink('./site/mapuse4/attension_relief.html', '凡例');
+		createPopupLink('../../site/mapuse4/attension_relief.html', '凡例');
 }
 
 // 写真

@@ -4,7 +4,7 @@
     <Style id="SYMBOLX2.symbolStyle">
       <IconStyle>
         <Icon>
-          <href>http://cyberjapan.jp/symbols/476.png</href>
+          <href></href> <!-- deleted the old domain. -->
         </Icon>
         <scale>0.5</scale>
       </IconStyle>

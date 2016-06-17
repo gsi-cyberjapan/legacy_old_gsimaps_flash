@@ -5,7 +5,7 @@
       <IconStyle id="">
         <scale>0.9</scale>
         <Icon>
-          <href>http://portal.cyberjapan.jp/sys/v4/symbols/mark1.png</href>
+          <href></href> <!-- deleted the old domain. -->
         </Icon>
         <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
       </IconStyle>
@@ -14,7 +14,7 @@
       <IconStyle id="">
         <scale>0.9</scale>
         <Icon>
-          <href>http://portal.cyberjapan.jp/sys/v4/symbols/mark2.png</href>
+          <href></href> <!-- deleted the old domain. -->
         </Icon>
         <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
       </IconStyle>
@@ -23,7 +23,7 @@
       <IconStyle id="">
         <scale>0.9</scale>
         <Icon>
-          <href>http://portal.cyberjapan.jp/sys/v4/symbols/mark3.png</href>
+          <href></href> <!-- deleted the old domain. -->
         </Icon>
         <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
       </IconStyle>
@@ -32,7 +32,7 @@
       <IconStyle id="">
         <scale>0.9</scale>
         <Icon>
-          <href>http://portal.cyberjapan.jp/sys/v4/symbols/mark4.png</href>
+          <href></href> <!-- deleted the old domain. -->
         </Icon>
         <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
       </IconStyle>
